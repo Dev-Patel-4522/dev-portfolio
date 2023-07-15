@@ -3,36 +3,36 @@ import {
 	FiTwitter,
 	FiLinkedin,
 	FiGlobe,
-	FiYoutube,
+	FiInstagram,
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
 const socialLinks = [
-	{
-		id: 1,
-		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
-	},
-	{
-		id: 2,
-		icon: <FiGithub />,
-		url: 'https://github.com/realstoman',
-	},
-	{
-		id: 3,
-		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
-	},
-	{
-		id: 4,
-		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
-	},
-	{
-		id: 5,
-		icon: <FiYoutube />,
-		url: 'https://www.youtube.com/c/realstoman',
-	},
+  {
+    id: 1,
+    icon: <FiGlobe />,
+    url: "/",
+  },
+  {
+    id: 2,
+    icon: <FiGithub />,
+    url: "https://github.com/Dev-Patel-4522",
+  },
+  {
+    id: 3,
+    icon: <FiTwitter />,
+    url: "https://twitter.com/devmghpatel",
+  },
+  {
+    id: 4,
+    icon: <FiLinkedin />,
+    url: "https://www.linkedin.com/in/dev-patel-0bba48219",
+  },
+  {
+    id: 5,
+    icon: <FiInstagram />,
+    url: "https://www.instagram.com/devmghpatel/",
+  },
 ];
 
 const AppFooter = () => {

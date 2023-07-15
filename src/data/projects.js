@@ -1,51 +1,51 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
-import WebImage2 from '../images/web-project-2.jpg';
-import MobileImage1 from '../images/mobile-project-1.jpg';
-import MobileImage2 from '../images/mobile-project-2.jpg';
-import UIImage1 from '../images/ui-project-1.jpg';
-import UIImage2 from '../images/ui-project-2.jpg';
+// import project1 from '../images/project1.png';
+import project2 from '../images/project2.png';
+import project3 from '../images/project3.png';
+import project4 from '../images/project4.png';
+import project5 from '../images/project5.png';
+import project6 from '../images/project6.png';
 
 export const projectsData = [
-	{
-		id: 1,
-		title: 'Google Health Platform',
-		category: 'Web Application',
-		img: WebImage2,
-		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
-		},
-	},
-	{
-		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
-		img: MobileImage2,
-	},
-	{
-		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
-		img: UIImage1,
-	},
-	{
-		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: UIImage2,
-	},
-	{
-		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: MobileImage1,
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
-		img: WebImage1,
-	},
+  {
+    id: 1,
+    title: "EventClick (Photoghrapher Hiring)",
+    category: "Web Application",
+    // img: project1,
+    // ProjectHeader: {
+    //   title: "Project Management UI - From Context",
+    //   publishDate: "Jul 26, 2021",
+    //   tags: "UI / Frontend",
+    // },
+  },
+  {
+    id: 2,
+    title: "The Adventures Himalayan",
+    category: "Web Application",
+    img: project2,
+  },
+  {
+    id: 3,
+    title: "Shreenik Outreach ",
+    category: "Web Application(Upgradation)",
+    img: project3,
+  },
+  {
+    id: 4,
+    title: "Simple Portfolio",
+    category: "Basic UI/UX Design (Static)",
+    img: project4,
+  },
+  {
+    id: 5,
+    title: "Hotel Landing Page",
+    category: "Basic UI/UX Design (Static)",
+    img: project5,
+  },
+  {
+    id: 6,
+    title: "Single Book Store Page",
+    category: "Basic UI/UX Design (Static)",
+    img: project6,
+  },
 ];

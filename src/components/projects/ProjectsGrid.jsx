@@ -1,17 +1,17 @@
 import { useContext } from 'react';
-import { FiSearch } from 'react-icons/fi';
+// import { FiSearch } from 'react-icons/fi';
 import ProjectSingle from './ProjectSingle';
 import { ProjectsContext } from '../../context/ProjectsContext';
-import ProjectsFilter from './ProjectsFilter';
+// import ProjectsFilter from './ProjectsFilter';
 
 const ProjectsGrid = () => {
 	const {
 		projects,
 		searchProject,
-		setSearchProject,
+		// setSearchProject,
 		searchProjectsByTitle,
 		selectProject,
-		setSelectProject,
+		// setSelectProject,
 		selectProjectsByCategory,
 	} = useContext(ProjectsContext);
 
@@ -19,11 +19,11 @@ const ProjectsGrid = () => {
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
 			<div className="text-center">
 				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-					Projects portfolio
+					Work Portfolio
 				</p>
 			</div>
 
-			<div className="mt-10 sm:mt-16">
+			{/* <div className="mt-10 sm:mt-16">
 				<h3
 					className="font-general-regular 
                         text-center text-secondary-dark
@@ -70,12 +70,12 @@ const ProjectsGrid = () => {
                                 sm:px-4
                                 py-2
                                 border 
-                            border-gray-200
-                                dark:border-secondary-dark
+                        	  border-gray-200
+                            dark:border-secondary-dark
                                 rounded-lg
-                                text-sm
+                                text-sm-gray-200
                                 sm:text-md
-                                bg-secondary-light
+                                bg-gray-400
                                 dark:bg-ternary-dark
                                 text-primary-dark
                                 dark:text-ternary-light
@@ -91,7 +91,7 @@ const ProjectsGrid = () => {
 
 					<ProjectsFilter setSelectProject={setSelectProject} />
 				</div>
-			</div>
+			</div> */}
 
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
 				{selectProject
