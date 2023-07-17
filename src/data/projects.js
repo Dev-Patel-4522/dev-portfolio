@@ -1,5 +1,5 @@
 // Import images
-// import project1 from '../images/project1.png';
+import project1 from '../images/project1.png';
 import project2 from '../images/project2.png';
 import project3 from '../images/project3.png';
 import project4 from '../images/project4.png';
@@ -11,7 +11,7 @@ export const projectsData = [
     id: 1,
     title: "EventClick (Photoghrapher Hiring)",
     category: "Web Application",
-    // img: project1,
+    img: project1,
     // ProjectHeader: {
     //   title: "Project Management UI - From Context",
     //   publishDate: "Jul 26, 2021",
