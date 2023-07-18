@@ -12,13 +12,13 @@ const contacts = [
     name: "devpatel7524@gmail.com (Personal)",
     icon: <FiMail />,
   },
+  // {
+  //   id: 3,
+  //   name: "work.devpatel@gmail.com (Work / Enquiry)",
+  //   icon: <FiMail />,
+  // },
   {
     id: 3,
-    name: "work.devpatel@gmail.com (Work / Enquiry)",
-    icon: <FiMail />,
-  },
-  {
-    id: 4,
     name: "+91 98255 36968",
     icon: <FiPhone />,
   },

@@ -9,7 +9,7 @@ import project6 from '../images/project6.png';
 export const projectsData = [
   {
     id: 1,
-    title: "EventClick (Photoghrapher Hiring)",
+    title: "EventClick (Photoghrapher Hiring) (B.Tech Final Semester Project)",
     category: "Web Application",
     img: project1,
     // ProjectHeader: {
@@ -20,13 +20,13 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "The Adventures Himalayan",
+    title: "The Adventures Himalayan (Diploma Final Semester Project)",
     category: "Web Application",
     img: project2,
   },
   {
     id: 3,
-    title: "Shreenik Outreach ",
+    title: "Shreenik Outreach (Urgent update of App ) (B.Tech Final Semester Internship)",
     category: "Web Application(Upgradation)",
     img: project3,
   },
