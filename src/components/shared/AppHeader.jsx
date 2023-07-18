@@ -6,11 +6,11 @@ import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 // import logoLight from '../../images/logo-light.svg';
 // import logo from '../../images/logo.png';
 import { motion } from 'framer-motion';
-import Button from '../reusable/Button';
+// import Button from '../reusable/Button';
 
 const AppHeader = () => {
 	const [showMenu, setShowMenu] = useState(false);
-	const [showModal, setShowModal] = useState(false);
+	// const [showModal, setShowModal] = useState(false);
 	const [activeTheme, setTheme] = useThemeSwitcher();
 
 	function toggleMenu() {
@@ -21,19 +21,19 @@ const AppHeader = () => {
 		}
 	}
 
-	function showHireMeModal() {
-		if (!showModal) {
-			document
-				.getElementsByTagName('html')[0]
-				.classList.add('overflow-y-hidden');
-			setShowModal(true);
-		} else {
-			document
-				.getElementsByTagName('html')[0]
-				.classList.remove('overflow-y-hidden');
-			setShowModal(false);
-		}
-	}
+	// function showHireMeModal() {
+	// 	if (!showModal) {
+	// 		document
+	// 			.getElementsByTagName('html')[0]
+	// 			.classList.add('overflow-y-hidden');
+	// 		setShowModal(true);
+	// 	} else {
+	// 		document
+	// 			.getElementsByTagName('html')[0]
+	// 			.classList.remove('overflow-y-hidden');
+	// 		setShowModal(false);
+	// 	}
+	// }
 
 	return (
     <motion.nav
@@ -127,7 +127,7 @@ const AppHeader = () => {
           >
             Contact
           </Link>
-          <div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
+          {/* <div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
             <span
               onClick={showHireMeModal}
               className="font-general-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
@@ -135,7 +135,7 @@ const AppHeader = () => {
             >
               <Button title="Hire Me" />
             </span>
-          </div>
+          </div> */}
         </div>
 
         {/* Header links large screen */}
