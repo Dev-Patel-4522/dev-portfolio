@@ -7,10 +7,10 @@ import AppHeader from './components/shared/AppHeader';
 import './css/App.css';
 // import UseScrollToTop from './hooks/useScrollToTop';
 
-const About = lazy(() => import('./pages/AboutMe'));
+const About = lazy(() => import('./pages/AboutMe.jsx'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
-const Home = lazy(() => import('./pages/Home'));
-const Projects = lazy(() => import('./pages/Projects'));
+const Home = lazy(() => import('./pages/Home.jsx'));
+const Projects = lazy(() => import('./pages/Projects.jsx'));
 // const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 
 
