@@ -20,7 +20,7 @@ const AboutMeBio = () => {
           {aboutMe.map((bio, id, intro) => (
             <>
               <p
-                className="mb-4 text-ternary-dark dark:text-ternary-light font-black text-3xl font-bold"
+                className="mb-4 text-ternary-dark dark:text-ternary-light font-black-bold text-3xl font-bold"
                 key={intro}
               >
                 {bio.intro}
