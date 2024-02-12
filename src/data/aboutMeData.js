@@ -7,7 +7,7 @@ export const aboutMeData = [
   {
     id: 2,
     intro: "My Internships",
-    bio: "I have done Internship(s) at SoftCoding Solutions in Front-End development with HTML, CSS, ReactJS and JS (January 2023 - May 2023) & HTML, CSS and JS (June 2022 - July 2022). I Have done Internship in Linux Red Hat (January 2019 - April 2019) and Computer Hardware Maintenance & Troubleshooting (February 2018 - April 2018).",
+    bio: "I have done Internship(s) at SoftCoding Solutions in Front-End Development with HTML, CSS, ReactJS and JS (January 2023 - May 2023) & HTML, CSS and JS (June 2022 - July 2022). I Have done Internship in Linux Red Hat (January 2019 - April 2019) and Computer Hardware Maintenance & Troubleshooting (February 2018 - April 2018).",
   },
   {
     id: 3,
