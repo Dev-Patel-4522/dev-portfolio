@@ -11,8 +11,8 @@ export const aboutMeData = [
   },
   {
     id: 3,
-    intro: "Bachelor of Technology (Diploma to Degree)",
-    bio: "Bachelor of Technology (Diploma to Degree) in Computer Engineering from Silver Oak College of Engineering and Technology (Silver Oak University Affiliation) with CGPA:- 8.58.",
+    intro: "Bachelor of Technology",
+    bio: "Bachelor of Technology in Computer Engineering from SOCET (Silver Oak University Affiliation) with CGPA:- 8.58.",
   },
   {
     id: 4,
