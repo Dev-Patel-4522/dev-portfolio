@@ -31,7 +31,7 @@ const socialLinks = [
   {
     id: 5,
     icon: <FiInstagram />,
-    url: "https://www.instagram.com/devmghpatel/",
+    url: "https://www.instagram.com/npm.dev/",
   },
 ];
 
