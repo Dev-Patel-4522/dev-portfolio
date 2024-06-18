@@ -1,13 +1,13 @@
 export const aboutMeData = [
   {
     id: 1,
-    intro: "Currently working",
-    bio: "I am Dev Patel a Frontend Developer working at 1 Loyalty",
+    intro: "Introduction",
+    bio: "I am Dev Patel a Fresher with knowledge of HTML, CSS, ReactJS and JavaScript. I keep a good interest in Python, Internet of Things (IoT) and Tech News. I am having deep interest in Current Affairs, Geo-Politics, and Foreign Relations of Bhārat Gaṇarājya with other respective Countries or States.",
   },
   {
     id: 2,
-    intro: "Introduction",
-    bio: "I am Dev Patel a Fresher with knowledge of HTML, CSS, ReactJS and JavaScript. I keep a good interest in Python, Internet of Things (IoT) and Tech News. I am having deep interest in Current Affairs, Geo-Politics, and Foreign Relations of Bhārat Gaṇarājya with other respective Countries or States.",
+    intro: "Currently working",
+    bio: "I am Dev Patel a Frontend Developer working at 1 Loyalty",
   },
   {
     id: 3,
