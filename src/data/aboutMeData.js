@@ -2,12 +2,12 @@ export const aboutMeData = [
   {
     id: 1,
     intro: "Introduction",
-    bio: "I am Dev Patel a Fresher with knowledge of HTML, CSS, ReactJS and JavaScript. I keep a good interest in Python, Internet of Things (IoT) and Tech News. I am having deep interest in Current Affairs, Geo-Politics, and Foreign Relations of Bhārat Gaṇarājya with other respective Countries or States.",
+    bio: "I am Dev Patel a Frontend Web Developer. I keep a good interest in Python, Internet of Things (IoT) and Tech News. I am having deep interest in Current Affairs, Geo-Politics, and Foreign Relations of Bhārat Gaṇarājya with other respective Countries or States.",
   },
   {
     id: 2,
     intro: "Currently working",
-    bio: "I am Dev Patel a Frontend Developer working at 1 Loyalty",
+    bio: "I am working as a Frontend Developer at 1 Loyalty (Start-Up)",
   },
   {
     id: 3,
@@ -16,17 +16,17 @@ export const aboutMeData = [
   },
   {
     id: 4,
-    intro: "Bachelor of Technology",
-    bio: "Bachelor of Technology in Computer Engineering from SOCET (Silver Oak University Affiliation) with CGPA:- 8.58.",
+    intro: "B. Tech",
+    bio: "B. Tech in CE from SOCET (Silver Oak University Affiliation) with CGPA:- 8.58.",
   },
   {
     id: 5,
     intro: "Diploma",
-    bio: "Diploma in Computer Engineering from VPMP Polytecnic (Gujarat Technological University Affiliation) with CGPA:- 7.90.",
+    bio: "Diploma in CE from VPMP Polytecnic (Gujarat Technological University Affiliation) with CGPA:- 7.90.",
   },
   {
     id: 6,
     intro: "Equipments",
-    bio: "I use to codeing Dell G3 15 Laptop, Dell Wireless Mouse WM118 and INFINITY GLIDE 510 On-Ear Headphone.",
+    bio: `I use to codeing Dell G3 15 Laptop Dell Wireless Mouse WM118 and INFINITY GLIDE 510 On-Ear Headphone.`,
   },
 ];

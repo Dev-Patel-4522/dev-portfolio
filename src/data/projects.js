@@ -12,6 +12,7 @@ export const projectsData = [
     title: "EventClick (Photoghrapher Hiring) (B.Tech Final Semester Project)",
     category: "Web Application",
     img: project1,
+    link: <a href="https://event-click.netlify.app/">EventClick</a>,
     // ProjectHeader: {
     //   title: "Project Management UI - From Context",
     //   publishDate: "Jul 26, 2021",
@@ -23,10 +24,16 @@ export const projectsData = [
     title: "The Adventures Himalayan (Diploma Final Semester Project)",
     category: "Web Application",
     img: project2,
+    link: (
+      <a href="https://the-adventures-himalayan.netlify.app/index-2">
+        The Adventures Himalayan
+      </a>
+    ),
   },
   {
     id: 3,
-    title: "Shreenik Outreach (Urgent update of App ) (B.Tech Final Semester Internship)",
+    title:
+      "Shreenik Outreach (Urgent update of App ) (B.Tech Final Semester Internship)",
     category: "Web Application(Upgradation)",
     img: project3,
   },
